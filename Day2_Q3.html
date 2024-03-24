@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Images with Border Styles</title>
+  <style>
+    .image-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+    .image-container img {
+      width: 100px;
+      height: 100px;
+      border-style: solid;
+      margin-right: 20px;
+    }
+    /* Border styles */
+    .border-solid {
+      border-width: 2px;
+      border-color: #333;
+      border-radius: 10px;
+    }
+    .border-dashed {
+      border-width: 3px;
+      border-color: #FF6347;
+      border-style: dashed;
+      border-radius: 15px;
+    }
+    .border-dotted {
+      border-width: 4px;
+      border-color: #6A5ACD;
+      border-style: dotted;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="images/sunset.jpg" alt="Image 1" class="border-solid">
+    <img src="images/nature.jpg" alt="Image 2" class="border-dashed">
+    <img src="images/pexels-eberhard-grossgasteiger-844297.jpg" alt="Image 3" class="border-dotted">
+  </div>
+</body>
+</html>
